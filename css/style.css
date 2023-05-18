@@ -1,0 +1,36 @@
+.navbar, .nav-menu{
+    padding: 0;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.nav-item, .nav-menu{
+    list-style: none;
+}
+
+.nav-item, .nav-menu, a{
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+#logo{
+    width: 70px;
+    height: 70px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prueba{
+    background-color: black;
+}
