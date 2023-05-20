@@ -1,3 +1,7 @@
+body{
+    background-image: url("/imagenes/fondo.jpg") ;
+}
+
 .navbar, .nav-menu{
     padding: 0;
     display: flex;
@@ -24,11 +28,14 @@ h1{
     justify-content: center;
 }
 
+.margen{
+    margin-bottom: -20px;
+}
+
 .titulo{
     font-weight: bold;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 p{
@@ -39,11 +46,32 @@ input, textarea, button{
     margin-left: 5px;
 }
 
-#logoFooter{
-    margin-top: 20px;
+button{
+    margin-bottom: 5px;
+    background-color: rgb(187, 206, 241);
 }
 
-@media (min-width: 725px){
+.colorFooter{
+    background-color: rgb(182, 133, 228, 0.5);
+}
+
+.colorHeader{
+    background-color: rgb(182, 133, 228, 0.5);
+}
+
+#logoFooter{
+    margin-top: 30px;
+}
+
+.separa{
+    display: flex;
+}
+
+.hijo{
+    margin: auto;
+}
+
+@media (min-width: 576px){
     .piePagina{
         padding-left:0.5px;
         padding-top: 25px;
@@ -51,21 +79,33 @@ input, textarea, button{
     .separar{
         padding-left: 5px;
     } 
+    
+    .columIzq{
+        visibility: hidden;
+    }
+
+    .columDer{
+        visibility: hidden;
+    }
+
+    #logoFooter{
+        margin-top: 60px;
+    }   
+}
+
+
+@media (min-width: 768px){
     #logoFooter{
         margin-top: 5px;
     }
 }
+
 
 footer{
     margin-top: 20px;
 }
 
 .pastel{
-    width: 100px;
+    width: 160px;
     height: 160px;
 }
-
-.prueba{
-    background-color: black;
-}
-  
