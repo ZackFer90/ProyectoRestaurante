@@ -43,7 +43,7 @@ p{
 }
 
 input, textarea, button{
-    margin-left: 5px;
+    margin-bottom: 5px;
 }
 
 button{
@@ -59,16 +59,21 @@ button{
     background-color: rgb(182, 133, 228, 0.5);
 }
 
-#logoFooter{
-    margin-top: 30px;
-}
-
 .separa{
     display: flex;
 }
 
 .hijo{
     margin: auto;
+}
+
+#logoFooter{
+    margin-top: 20px;
+}
+
+#mostrador{
+    height: 300px;
+    width: 400px;
 }
 
 @media (min-width: 576px){
@@ -89,17 +94,34 @@ button{
     }
 
     #logoFooter{
-        margin-top: 60px;
-    }   
+        margin-top: 2px;
+    }
+    .margen{
+        margin-bottom: 0px;
+    }
+
+    .footerContact{
+        margin-top: 70px;
+    }
+
+    #mostrador{
+        height: 350px;
+        width: 950px;
+    }
 }
 
 
 @media (min-width: 768px){
-    #logoFooter{
-        margin-top: 5px;
+    .alturaLogo{
+        height: 80px;
     }
 }
 
+.centrar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 footer{
     margin-top: 20px;
@@ -108,4 +130,23 @@ footer{
 .pastel{
     width: 160px;
     height: 160px;
+    border: 1px solid black;
+}
+
+.ponerDistancia{
+    margin-top: 30px;
+}
+
+.enLinea{
+    display: flex;
+    justify-content: center;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.chefs{
+    height: 400px;
+    width: 400px;
 }
