@@ -41,6 +41,16 @@ Decidí crear una aplicación web que simulara una pagina de una pasteleria.
 ## Vistas
 
 <h3>Resultado</h3>
+Pagina index
+<img src="./imagenes/paginaInicio.png">
+Pagina carta para PC
+<img src="./imagenes/cartaOrdenador.png">
+Pagina carta para movil<br/>
+<img src="./imagenes/cartaMovil.png"><br/>
+Pagina contacto para PC
+<img src="./imagenes/contactoOrdenador.png">
+Pagina contacto para movil<br/>
+<img src="./imagenes/contactoMovil.png">
 
 <h3>Modelos</h3>
 Modelo carta
