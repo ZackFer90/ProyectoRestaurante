@@ -26,6 +26,7 @@ body{
 h1{
     display: flex;
     justify-content: center;
+    padding-top: 10px;
 }
 
 .margen{
@@ -39,7 +40,11 @@ h1{
 }
 
 p{
-    padding-left: 5px;
+    margin-bottom: -2px;
+}
+
+u{
+    margin-bottom: 10px;
 }
 
 input, textarea, button{
@@ -47,15 +52,10 @@ input, textarea, button{
 }
 
 button{
-    margin-bottom: 5px;
     background-color: rgb(187, 206, 241);
 }
 
-.colorFooter{
-    background-color: rgb(182, 133, 228, 0.5);
-}
-
-.colorHeader{
+.colorFooterHeader{
     background-color: rgb(182, 133, 228, 0.5);
 }
 
@@ -65,6 +65,7 @@ button{
 
 .hijo{
     margin: auto;
+    margin-bottom: 10px;
 }
 
 #logoFooter{
@@ -73,7 +74,11 @@ button{
 
 #mostrador{
     height: 300px;
-    width: 400px;
+    width: 390px;
+}
+
+.nivelarCarta{
+    margin-bottom: 10px;
 }
 
 @media (min-width: 576px){
@@ -101,12 +106,16 @@ button{
     }
 
     .footerContact{
-        margin-top: 70px;
+        margin-top: 50px;
     }
 
     #mostrador{
         height: 350px;
-        width: 950px;
+        width: 850px;
+    }
+
+    .nivelarCarta{
+        margin-bottom: 0px;
     }
 }
 
@@ -149,4 +158,8 @@ footer{
 .chefs{
     height: 400px;
     width: 400px;
+}
+
+.separarAbajo{
+    margin-bottom: 20px;
 }

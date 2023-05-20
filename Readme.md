@@ -63,6 +63,7 @@ Para conseguir mi objetivo he recopilado información de:
 - https://uniwebsidad.com/libros/bootstrap-3/capitulo-2/tipos-de-rejillas
 - https://getbootstrap.com/docs/4.0/utilities/colors/
 - https://getbootstrap.com/docs/5.2/components/navbar/
+- https://www.w3schools.com/css/css3_colors.asp
 
 ## Agradecimientos:
 
