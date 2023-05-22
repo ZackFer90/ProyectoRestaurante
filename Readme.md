@@ -42,21 +42,21 @@ Decidí crear una aplicación web que simulara una pagina de una pasteleria.
 
 <h3>Resultado</h3>
 Pagina index
-<img src="./imagenes/paginaInicio.png">
+<img src="imagenes/paginaInicio.PNG">
 Pagina carta para PC
-<img src="./imagenes/cartaOrdenador.png">
+<img src="imagenes/cartaOrdenador.PNG">
 Pagina carta para movil<br/>
-<img src="./imagenes/cartaMovil.png"><br/>
+<img src="imagenes/cartaMovil.PNG"><br/>
 Pagina contacto para PC
-<img src="./imagenes/contactoOrdenador.png">
+<img src="imagenes/contactoOrdenador.png">
 Pagina contacto para movil<br/>
-<img src="./imagenes/contactoMovil.png">
+<img src="imagenes/contactoMovil.PNG">
 
 <h3>Modelos</h3>
 Modelo carta
-<img src="./imagenes/modeloCarta.png">
+<img src="imagenes/modeloCarta.PNG">
 Modelo contactos
-<img src="./imagenes/modeloContacto.png">
+<img src="imagenes/modeloContacto.PNG">
 
 ## Licencia
 
