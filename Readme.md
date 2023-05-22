@@ -48,7 +48,7 @@ Pagina carta para PC
 Pagina carta para movil<br/>
 <img src="imagenes/cartaMovil.PNG"><br/>
 Pagina contacto para PC
-<img src="imagenes/contactoOrdenador.png">
+<img src="imagenes/contactoOrdenador.PNG">
 Pagina contacto para movil<br/>
 <img src="imagenes/contactoMovil.PNG">
 
