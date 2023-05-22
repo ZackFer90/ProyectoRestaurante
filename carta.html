@@ -13,22 +13,40 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-sm navbar-light colorFooterHeader">
-        <a class="navbar-brand" href="#"
-          ><img class="logo margen" src="/imagenes/logo.png"
-        /></a>
-        <div class="navbar-collapse titulo" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active margen">
-              <a class="nav-link" href="index.html">Menu</a>
-            </li>
-            <li class="nav-item margen">
-              <a class="nav-link" href="#">Carta</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contactos</a>
-            </li>
-          </ul>
+      <nav class="navbar navbar-expand-lg colorFooterHeader">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img class="logo" src="/imagenes/logo.png"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse titulo"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Menu</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Carta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contactos</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
@@ -38,120 +56,156 @@
     <div class="row">
       <div class="col-12 col-sm-2 columIzq"></div>
       <div class="col-12 col-sm-8">
-        <div class="row separa">
+        <div class="row margenCard">
           <h3>Comida</h3>
-          <div class="col-5 col-sm-4 hijo">
-            <img src="/imagenes/poster1.jpg" class="pastel" />
-            <p>Encenalls de chocolate (100gr)</p>
-            <p>Precio: 2€</p>
-            <button type="button">Añadir</button>
+          <div class="col-5 col-sm-4 card fondoCarta">
+            <img src="/imagenes/poster1.jpg" class="pastel card-img-top" />
+            <div class="card-body">
+              <p>Encenalls de chocolate (100gr)</p>
+              <p>Precio: 2€</p>
+              <button type="button" class="btn botonColor">Añadir</button>
+            </div>
           </div>
-          <div class="col-5 col-sm-4 hijo">
-            <img src="/imagenes/poster2.jpg" class="pastel" />
-            <p>Pastel de limón Cordón Bleau</p>
-            <p>Precio: 8,50€</p>
-            <button type="button">Añadir</button>
+          <div class="col-5 col-sm-4 card fondoCarta">
+            <img src="/imagenes/poster2.jpg" class="pastel card-img-top" />
+            <div class="card-body">
+              <p>Pastel de limón Cordón Bleau</p>
+              <p>Precio: 8,50€</p>
+              <button type="button" class="btn botonColor">Añadir</button>
+            </div>
           </div>
-          <div class="col-5 col-sm-4 hijo">
-            <img src="/imagenes/poster3.jpg" class="pastel" />
-            <p>Macarons</p>
-            <p>Precio: 3€</p>
-            <button type="button">Añadir</button>
+          <div class="col-5 col-sm-4 card fondoCarta">
+            <img src="/imagenes/poster3.jpg" class="pastel card-img-top" />
+            <div class="card-body">
+              <p>Macarons</p>
+              <p>Precio: 3€</p>
+              <button type="button" class="btn botonColor">Añadir</button>
+            </div>
           </div>
-          <div class="col-5 col-sm-4 hijo">
-            <img src="/imagenes/poster4.jpg" class="pastel" />
-            <p>Love cookies</p>
-            <p>Precio: 1€</p>
-            <button type="button">Añadir</button>
+          <div class="col-5 col-sm-4 card fondoCarta">
+            <img src="/imagenes/poster4.jpg" class="pastel card-img-top" />
+            <div class="card-body">
+              <p>Love cookies</p>
+              <p>Precio: 1€</p>
+              <button type="button" class="btn botonColor">Añadir</button>
+            </div>
           </div>
-          <div class="col-5 col-sm-4 hijo">
-            <img src="/imagenes/poster5.jpg" class="pastel" />
-            <p>Financieros de chocolate</p>
-            <p>Precio: 2,50€</p>
-            <button type="button">Añadir</button>
+          <div class="col-5 col-sm-4 card fondoCarta">
+            <img src="/imagenes/poster5.jpg" class="pastel card-img-top" />
+            <div class="card-body">
+              <p>Financieros de chocolate</p>
+              <p>Precio: 2,50€</p>
+              <button type="button" class="btn botonColor">Añadir</button>
+            </div>
           </div>
-          <div class="col-5 col-sm-4 hijo">
-            <img src="/imagenes/poster6.jpg" class="pastel" />
-            <p class="nivelarCarta">Bizcocho de limón</p>
-            <p>Precio: 2,50€</p>
-            <button type="button">Añadir</button>
-          </div>
-        </div>
-        <div class="row separa">
-          <div class="col-5 col-sm-4 hijo">
-            <img src="/imagenes/poster7.jpg" class="pastel" />
-            <p class="nivelarCarta">Tarta dark crown</p>
-            <p>Precio: 9,95€</p>
-            <button type="button">Añadir</button>
-          </div>
-          <div class="col-5 col-sm-4 hijo">
-            <img src="/imagenes/poster8.jpg" class="pastel" />
-            <p>Magdalenas Halloween</p>
-            <p>Precio: 1,75€</p>
-            <button type="button">Añadir</button>
-          </div>
-          <div class="col-5 col-sm-4 hijo">
-            <img src="/imagenes/poster9.jpg" class="pastel" />
-            <p class="nivelarCarta">Magdalenas rellenas</p>
-            <p>Precio: 1,50€</p>
-            <button type="button">Añadir</button>
-          </div>
-          <div class="col-5 col-sm-4 hijo">
-            <img src="/imagenes/poster10.jpg" class="pastel" />
-            <p>Buñuelos de viento (100gr)</p>
-            <p>Precio: 3€</p>
-            <button type="button">Añadir</button>
-          </div>
-          <div class="col-5 col-sm-4 hijo">
-            <img src="/imagenes/poster11.jpg" class="pastel" />
-            <p>Brownie con helado de vainilla</p>
-            <p>Precio: 4,25€</p>
-            <button type="button">Añadir</button>
-          </div>
-          <div class="col-5 col-sm-4 hijo">
-            <img src="/imagenes/poster12.jpg" class="pastel" />
-            <p>Pastel de crema pastelera</p>
-            <p>Precio: 4,50€</p>
-            <button type="button">Añadir</button>
+          <div class="col-5 col-sm-4 card fondoCarta">
+            <img src="/imagenes/poster6.jpg" class="pastel card-img-top" />
+            <div class="card-body">
+              <p class="nivelarCarta">Bizcocho de limón</p>
+              <p>Precio: 2,50€</p>
+              <button type="button" class="btn botonColor">Añadir</button>
+            </div>
           </div>
         </div>
-        <div class="row separa ponerDistancia">
+        <div class="row margenCard">
+          <div class="col-5 col-sm-4 card fondoCarta">
+            <img src="/imagenes/poster7.jpg" class="pastel card-img-top" />
+            <div class="card-body">
+              <p class="nivelarCarta">Tarta dark crown</p>
+              <p>Precio: 9,95€</p>
+              <button type="button" class="btn botonColor">Añadir</button>
+            </div>
+          </div>
+          <div class="col-5 col-sm-4 card fondoCarta">
+            <img src="/imagenes/poster8.jpg" class="pastel card-img-top" />
+            <div class="card-body">
+              <p>Magdalenas Halloween</p>
+              <p>Precio: 1,75€</p>
+              <button type="button" class="btn botonColor">Añadir</button>
+            </div>
+          </div>
+          <div class="col-5 col-sm-4 card fondoCarta">
+            <img src="/imagenes/poster9.jpg" class="pastel card-img-top" />
+            <div class="card-body">
+              <p class="nivelarCarta">Magdalenas rellenas</p>
+              <p>Precio: 1,50€</p>
+              <button type="button" class="btn botonColor">Añadir</button>
+            </div>
+          </div>
+          <div class="col-5 col-sm-4 card fondoCarta">
+            <img src="/imagenes/poster10.jpg" class="pastel card-img-top" />
+            <div class="card-body">
+              <p>Buñuelos de viento (100gr)</p>
+              <p>Precio: 3€</p>
+              <button type="button" class="btn botonColor">Añadir</button>
+            </div>
+          </div>
+          <div class="col-5 col-sm-4 card fondoCarta">
+            <img src="/imagenes/poster11.jpg" class="pastel card-img-top" />
+            <div class="card-body">
+              <p>Brownie con helado de vainilla</p>
+              <p>Precio: 4,25€</p>
+              <button type="button" class="btn botonColor">Añadir</button>
+            </div>
+          </div>
+          <div class="col-5 col-sm-4 card fondoCarta">
+            <img src="/imagenes/poster12.jpg" class="pastel card-img-top" />
+            <div class="card-body">
+              <p>Pastel de crema pastelera</p>
+              <p>Precio: 4,50€</p>
+              <button type="button" class="btn botonColor">Añadir</button>
+            </div>
+          </div>
+        </div>
+        <div class="row margenCard ponerDistancia">
           <h3>Bebida</h3>
-          <div class="col-5 col-sm-4 hijo">
-            <img src="/imagenes/cocacola.jpg" class="pastel" />
-            <p>Cocacola</p>
-            <p>Precio: 1,50€</p>
-            <button type="button">Añadir</button>
+          <div class="col-5 col-sm-4 card fondoCarta">
+            <img src="/imagenes/cocacola.jpg" class="pastel card-img-top" />
+            <div class="card-body">
+              <p>Cocacola</p>
+              <p>Precio: 1,50€</p>
+              <button type="button" class="btn botonColor">Añadir</button>
+            </div>
           </div>
-          <div class="col-5 col-sm-4 hijo">
-            <img src="/imagenes/fanta.jpg" class="pastel" />
-            <p>Fanta</p>
-            <p>Precio: 1,50€</p>
-            <button type="button">Añadir</button>
+          <div class="col-5 col-sm-4 card fondoCarta">
+            <img src="/imagenes/fanta.jpg" class="pastel card-img-top" />
+            <div class="card-body">
+              <p>Fanta</p>
+              <p>Precio: 1,50€</p>
+              <button type="button" class="btn botonColor">Añadir</button>
+            </div>
           </div>
-          <div class="col-5 col-sm-4 hijo">
-            <img src="/imagenes/agua.jpg" class="pastel" />
-            <p>Agua</p>
-            <p>Precio: 1,20€</p>
-            <button type="button">Añadir</button>
+          <div class="col-5 col-sm-4 card fondoCarta">
+            <img src="/imagenes/agua.jpg" class="pastel card-img-top" />
+            <div class="card-body">
+              <p>Agua</p>
+              <p>Precio: 1,20€</p>
+              <button type="button" class="btn botonColor">Añadir</button>
+            </div>
           </div>
-          <div class="col-5 col-sm-4 hijo">
-            <img src="/imagenes/te.jpg" class="pastel" />
-            <p>Té</p>
-            <p>Precio: 1,75€</p>
-            <button type="button">Añadir</button>
+          <div class="col-5 col-sm-4 card fondoCarta">
+            <img src="/imagenes/te.jpg" class="pastel card-img-top" />
+            <div class="card-body">
+              <p>Té</p>
+              <p>Precio: 1,75€</p>
+              <button type="button" class="btn botonColor">Añadir</button>
+            </div>
           </div>
-          <div class="col-5 col-sm-4 hijo">
-            <img src="/imagenes/chocolate.jpg" class="pastel" />
-            <p>Chocolate a la taza</p>
-            <p>Precio: 2,25€</p>
-            <button type="button">Añadir</button>
+          <div class="col-5 col-sm-4 card fondoCarta">
+            <img src="/imagenes/chocolate.jpg" class="pastel card-img-top" />
+            <div class="card-body">
+              <p>Chocolate a la taza</p>
+              <p>Precio: 2,25€</p>
+              <button type="button" class="btn botonColor">Añadir</button>
+            </div>
           </div>
-          <div class="col-5 col-sm-4 hijo">
-            <img src="/imagenes/cafe.jpeg" class="pastel" />
-            <p>Cafe</p>
-            <p>Precio: 1,50€</p>
-            <button type="button">Añadir</button>
+          <div class="col-5 col-sm-4 card fondoCarta">
+            <img src="/imagenes/cafe.jpeg" class="pastel card-img-top" />
+            <div class="card-body">
+              <p>Cafe</p>
+              <p>Precio: 1,50€</p>
+              <button type="button" class="btn botonColor">Añadir</button>
+            </div>
           </div>
         </div>
         <div class="row">

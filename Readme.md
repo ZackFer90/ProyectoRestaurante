@@ -17,11 +17,11 @@
 
 ## Objetivo 🎯
 
-Este proyecto requería conexión a una API funcional para crear una web.
+Este proyecto requería crear una web con boostrap.
 
 ## Sobre el proyecto 🔎
 
-Decidí crear una aplicación web que simulara una pagina de una pasteleria.
+Decidí crear una aplicación web que simulara una página de una pastelería.
 
 ## Deploy 🚀
 
@@ -32,8 +32,14 @@ Decidí crear una aplicación web que simulara una pagina de una pasteleria.
 ## Stack
 
 <div align="center">
-<a href="https://developer.mozilla.org/es/docs/Web/HTML">
-    <img  src="https://www.cursosgis.com/wp-content/uploads/2017/06/lenguajes_1.png"/>
+<a>
+    <img  src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
+</a>
+<a>
+    <img  src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
+</a>
+<a>
+    <img  src=https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
 </a>
 
  </div>
@@ -41,15 +47,15 @@ Decidí crear una aplicación web que simulara una pagina de una pasteleria.
 ## Vistas
 
 <h3>Resultado</h3>
-Pagina index
+Página index
 <img src="imagenes/paginaInicio.PNG">
-Pagina carta para PC
+Página carta para PC
 <img src="imagenes/cartaOrdenador.PNG">
-Pagina carta para movil<br/>
+Página carta para móvil<br/>
 <img src="imagenes/cartaMovil.PNG"><br/>
-Pagina contacto para PC
+Página contacto para PC
 <img src="imagenes/contactoOrdenador.PNG">
-Pagina contacto para movil<br/>
+Página contacto para móvil<br/>
 <img src="imagenes/contactoMovil.PNG">
 
 <h3>Modelos</h3>
